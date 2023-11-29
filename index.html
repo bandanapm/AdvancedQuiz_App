@@ -1,0 +1,38 @@
+<!-- Bandana Pachabhaiya Magar
+    Student ID: C0916126 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 6 and 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container" data-correct="2">
+        <div class="question">
+            <p class="question-text">What does HTML stands for?</p>
+            <ol type="A" class="options">
+                <li data-option="1"><input type="radio" name="q1" id="q1-a1">
+                    <label class="incorrect" for="q1-a1"> Hyper Tranferable Markup Language</label>
+                </li>
+                <li data-option="2"><input type="radio" name="q1" id="q1-a2">
+                    <label class="correct" for="q1-a2"> Hyper Text Markup Language</label>
+                </li>
+                <li data-option="3"><input type="radio" name="q1" id="q1-a3">
+                    <label class="incorrect" for="q1-a3"> High-level Text Markup Language</label>
+                </li>
+                <li data-option="4"><input type="radio" name="q1" id="q1-a4">
+                    <label class="incorrect" for="q1-a4"> Hyperlink Transfrable Markup Language</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            document.querySelector('.question').classList.add('show');
+        };
+    </script>
+</body>
+</html>
